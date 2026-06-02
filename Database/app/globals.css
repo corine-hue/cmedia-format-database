@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: #06111f;
+  color: #f8fafc;
+}
+
+::selection {
+  background: #d8bd7a;
+  color: #06111f;
+}
+
+.broadcast-grid {
+  background-image:
+    linear-gradient(rgba(216, 189, 122, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(216, 189, 122, 0.08) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
